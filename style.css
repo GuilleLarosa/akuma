@@ -554,3 +554,128 @@ h2{
 
 }
 
+.navbar {
+  z-index: 20;
+}
+
+.contact-form {
+  padding: 150px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 60vw;
+  margin: 80px auto 80px auto;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0;
+}
+
+.contact-form input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #282036;
+  color: #d7dfc9;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+
+.body-product {
+  width: 100%;
+  padding-top: 150px; /*Alejo la seccion del borde superior*/
+  padding-bottom: 110px; /*Alejo la seccion del borde inferior*/
+  display: flex;  
+  justify-content: center; /* Centro el contenido del boby-product */
+}
+
+.Sec-Products-b {
+  width: 65%;
+  padding-top: 35px;
+  background-color: #d7dfc9;
+  border-radius: 8px;
+  display: flex;
+  justify-content: left;
+}
+
+.body-product video {
+  width: 350px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  }
+
+  .li-products-media {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .body-product img {
+    width: 100px;
+  }
+
+  .body-product h3 {
+    font-family: 'Montserrat';
+    font-size: 1vw;
+    font-weight: 500;
+    z-index:10;
+    color: #d7dfc9; 
+  }
+  .body-product h5{  
+    font-family: 'Montserrat';
+    font-size: 2vw;
+    font-weight: 500;
+    z-index:10;
+    color: #282036; 
+  }
+  
+  .body-product h6{
+    padding-top: 30px; 
+    font-family: 'Montserrat';
+    font-size: 1vw;
+    font-weight: 500;
+    z-index:10;
+    color: #282036; 
+  }
+  
+  .text-p p{
+    
+    font-family: 'Montserrat';
+    font-size: .8vw;
+    font-weight: 500;
+    z-index:10;
+    color: #282036; 
+  }
+  
+  .Buy {
+    padding: 35PX;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .body-product button {
+    background-color: #282036;
+    color: #d7dfc9;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 1vw;
+    font-weight: 700;
+    z-index:10;
+  }
