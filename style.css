@@ -548,11 +548,45 @@ h2{
 
 @media (max-width: 1000px) {
     
-    .main_products, .review_grid, .footer_grid{
-        display: none;
-       }
+  .review_grid, .nav-item_rev, .list_product, .product_links, .copy_right {
+   display: none;
+  }
+  
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 60px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+    
+  .extra { grid-area: none }
+   
+  .address { 
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding: 0 20px 0 0;
+    grid-area: 1 / 3 / 2 / 4; 
+  }
+  .address p { 
+    font-size: 10px; 
+  }
+
+  .copy_right { 
+    grid-area: none; 
+  }
+
+  .social_media { 
+    grid-area: 1 /2 / 2 / 3;
+    display: flex;
+    justify-content: center; 
+  }
 
 }
+
+
 
 .navbar {
   z-index: 20;
