@@ -354,7 +354,6 @@
         grid-column: 1 / 6;
         grid-row: 6 / 6;
       }
-
       
   }
 
@@ -584,16 +583,15 @@ h2{
     justify-content: center; 
   }
 
+  
 }
-
-
 
 .navbar {
   z-index: 20;
 }
 
 .contact-form {
-  padding: 150px;
+  padding: 8git0px 20px 150px 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 60vw;
